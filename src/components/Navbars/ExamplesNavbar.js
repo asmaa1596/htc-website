@@ -73,7 +73,7 @@ function ExamplesNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            to="/index"
+            to="/"
             target="_blank"
             title="HELP TECH CLUB"
             tag={Link}

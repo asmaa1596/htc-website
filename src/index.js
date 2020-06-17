@@ -36,13 +36,13 @@ ReactDOM.render(
     <Switch>
       
       <Route
-        path="/index"
+        path="/"
         render={props => <LandingPage {...props} />}
       />
       
       
       
-      <Redirect to="/index" />
+      <Redirect to="/" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
