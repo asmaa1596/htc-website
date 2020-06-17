@@ -78,7 +78,7 @@ function ExamplesNavbar() {
             title="HELP TECH CLUB"
             tag={Link}
           >
-            HELP TECH Club tEST
+            HELP TECH Club
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -99,21 +99,21 @@ function ExamplesNavbar() {
         >
           <Nav navbar>
             <NavItem>
-            <HashLink to="index#about-section">
-              <NavLink to="/index" tag={Link}>
+            <HashLink to="#about-section">
+              <NavLink to="/" tag={Link}>
                 <i className="nc-icon nc-badge" /> About Us
               </NavLink>
             </HashLink>
             </NavItem>
             <NavItem>
-            <HashLink to="index#events-section">
+            <HashLink to="#events-section">
               <NavLink>
                 <i className="nc-icon nc-calendar-60" /> Events
               </NavLink>
             </HashLink>
             </NavItem>
             <NavItem>
-              <HashLink to="index#projects-section">
+              <HashLink to="#projects-section">
               <NavLink
               >
 
@@ -123,7 +123,7 @@ function ExamplesNavbar() {
               </HashLink>
             </NavItem>
             <NavItem>
-            <HashLink to="index#contact-section">
+            <HashLink to="#contact-section">
               <NavLink>
                 <i className="nc-icon nc-chat-33" /> Contact Us
               </NavLink>
