@@ -78,7 +78,7 @@ function ExamplesNavbar() {
             title="HELP TECH CLUB"
             tag={Link}
           >
-            HELP TECH Club
+            HELP TECH Club tEST
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
